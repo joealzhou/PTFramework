@@ -1,0 +1,11 @@
+framework module ProjectTool {
+  umbrella header "ProjectTool.h"
+
+  export *
+  module * { export * }
+}
+
+module ProjectTool.Swift {
+    header "ProjectTool-Swift.h"
+    requires objc
+}
